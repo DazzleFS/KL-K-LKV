@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>BOOKING SECTION</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="form">
+            <h1 class="formname">BOOK AN APPOINTMENT</h1>
+            <br>
+            <form>
+                <label>YOUR NAME - </label>
+                <input type="text" name="name" placeholder="ENTER YOUR NAME"><br><br>
+                <label>PHONE NUMBER - </label>
+                <input type="phone" name="phone" placeholder="**********"><br><br>
+                <label>GENDER - </label>&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender"> MALE&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender"> FEMALE<br><br>
+                <label for="service">SERVICE NEEDED - </label>
+                <select id="service">
+                    <option value="none">NONE</option>
+                    <option value="f">FACIAL</option>
+                    <option value="k">KIDS HAIRCUT</option>
+                    <option value="m">MENS HAIRCUT</option>
+                    <option value="w">WOMENS HAIRCUT</option>
+                    <option value="t">THREADING</option>
+                    <option value="wa">WAXING</option>
+                    <option value="rm">RELAXATION MESSAGES</option>
+                    <option value="pd">PEDICURE</option>
+                    <option value="mc">MANICURE</option>
+                    <option value="hs">HAIR SPA</option>
+                    <option value="hc">HAIR COLORING</option>
+                    <option value="om">OIL MESSAGES</option>
+                    <option value="sm">SKIN POLISHING</option>
+                    <option value="sym">STRAIGHTENING</option>
+                    <option value="pkm">D-TAN</option>
+                    <option value="pkmk">KERATIN</option>
+                    <option value="pmJJJ">CLEANUPS</option>
+                    <option value="pmooo">SMOOTHENING</option>
+                    <option value="pJm">HENNA</option>
+                    <option value="pOOOm">PARTY</option>
+                    <option value="iiiiii">NAIL EXTENSION[NAIL ART]</option>
+                    <option value="iopijik">HAIR EXTENSION</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>OTHERS - </label>
+                <input placeholder="ANY OTHER SERVICES" type="text" name="th"><br><br>
+                <label for="makeup">MAKEUP - </label>
+                <select id="makeup">
+                    <option value="ni">NONE</option>
+                    <option value="bk">BRIDAL</option>
+                    <option value="pm">PARTY</option>
+                    <option value="fd">HD</option>
+                    <option value="nm">NORMAL</option>
+                </select><br><br>
+                <label>DATE OF SERVICE - </label>
+                <input type="date" name="date"><br><br>
+                <label>TIME - </label>
+                <input type="time" name="time"><br><br>
+                <label for="branch">BRANCH - </label>
+                <select id="branch">
+                    <option value="KADUBEESANAHALLI">PANATHUR MAIN ROAD</option>
+                    <option value="KAVERIAPPALAYOUT">KAVERAPPA LAYOUT</option>
+                    <option value="kk">KANNALI ROAD</option>
+                </select><br><br>
+                <label>ADDITIONAL COMMENTS - </label>
+                <textarea rows="5" cols="15" placeholder="ADDITIONAL SERVICES"></textarea><br><br>
+                <input type="submit" name="BOOK NOW"><br><br>
+                <input type="reset" name="RESET"><br><br>
+                <input class="btn2" target="_blank" type="button" value="BACK TO HOME" onclick="fun2()">
+        </section>
+    </body>
+    <script src="main.js"></script>
+</html>
